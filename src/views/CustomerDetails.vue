@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h3 class="p-5">Customers</h3>
-    <CustomerList/>
+    <h3 class="p-5">Customer Details</h3>
+    <CustomerDetail />
   </div>
 </template>
 
 <script>
-import CustomerList from "@/components/CustomerList.vue";
+import CustomerDetail from "@/components/CustomerDetail.vue";
 
 export default {
-  name: "Customers",
+  name: "CustomersDetails",
   props: {
     msg: String
   },
   components: {
-    CustomerList
+    CustomerDetail
   }
 };
 </script>

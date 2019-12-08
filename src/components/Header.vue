@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Customer</a>
+    <a class="navbar-brand">
+      <router-link to="/customers">Customer</router-link>
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,10 +17,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="nav navbar-nav navbar-right">
         <ul class="navbar-nav text-right">
-          <li class="nav-item active">
+          <li class="nav-item nav-link active py-3">
             <router-link to="/">Home</router-link>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item nav-link py-3">
             <router-link to="/customers">Customers</router-link>
           </li>
         </ul>
@@ -56,4 +58,7 @@ a {
   text-decoration: none;
 }
 
+.navbar-brand a {
+  text-decoration: none;
+}
 </style>

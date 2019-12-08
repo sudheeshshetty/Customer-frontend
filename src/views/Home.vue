@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .home {
-  min-height: 90vh;
+  min-height: 88vh;
   overflow: hidden;
 }
 </style>
