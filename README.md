@@ -1,9 +1,13 @@
-# customer
+# Customer Frontend
 
-## Project setup
-```
-npm install
-```
+### Setup
+##### Cloning the project
+`git clone https://github.com/sudheeshshetty/Customer-frontend.git`
+
+##### Steps
+
+ - cd Customer-frontend
+ - npm i
 
 ### Compiles and hot-reloads for development
 ```
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
