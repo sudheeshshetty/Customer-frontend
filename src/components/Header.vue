@@ -19,7 +19,7 @@
             <router-link to="/">Home</router-link>
           </li>
           <li class="nav-item active">
-            <router-link to="/about">About</router-link>
+            <router-link to="/customers">Customers</router-link>
           </li>
         </ul>
       </div>
