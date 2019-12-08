@@ -36,11 +36,12 @@ export default {
   },
   methods: {
     validate: function() {
-      var re = /^(([^<>()[]\\.,;:s@"]+(.[^<>()[]\\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
+      var re = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
       if (re.test(this.email)) {
         this.isvalidEmail = true;
+      } else {
+        this.isvalidEmail = false;
       }
-      this.isvalidEmail = false;
     },
     addCustomer: function() {
       if (this.name && this.email && this.isvalidEmail) {
